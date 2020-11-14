@@ -1,10 +1,13 @@
 name: "my-website"
 navbar:
   title: "My Website"
+  type: inverse
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
     - text: "About"
+      icon: fa-info
       href: about.html
 output:
   html_document:
